@@ -16,7 +16,7 @@ const Footer = () => {
           </p>
           <div className="border-t border-border pt-6">
             <p className="text-sm text-muted-foreground">
-              © 2024 ClassScribe. Built for students, by students.
+              © 2025 ClassScribe. Built for students, by students.
             </p>
           </div>
         </div>

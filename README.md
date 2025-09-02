@@ -1,4 +1,53 @@
-# Welcome to your Lovable project
+# ClassScribe AI Notes
+
+## 🎤 AI-Powered Lecture Transcription & Note-Taking
+
+ClassScribe transforms your lectures into organized, searchable notes using real AI transcription and intelligent summarization.
+
+### ✨ Features
+
+- **🎤 Real-time Audio Recording** - Record lectures directly in your browser
+- **🤖 AI Transcription** - Convert speech to text using OpenAI Whisper
+- **📝 Intelligent Summaries** - AI-generated summaries of key concepts
+- **🔍 Search & Filter** - Find notes quickly with powerful search
+- **📱 Responsive Design** - Works perfectly on desktop and mobile
+- **🔐 User Authentication** - Secure, private note storage
+- **💾 Cloud Storage** - Notes saved to Supabase database
+
+### 🚀 Quick Start
+
+1. **Clone & Install**
+   ```bash
+   git clone <YOUR_GIT_URL>
+   cd classscribe-ai-notes
+   npm install
+   ```
+
+2. **Set up Environment**
+   ```bash
+   # Copy .env.example to .env and add your keys
+   cp .env.example .env
+   ```
+
+3. **Configure AI (Optional)**
+   - Get OpenAI API key from [OpenAI Platform](https://platform.openai.com/)
+   - Add `VITE_OPENAI_API_KEY=your_key` to `.env`
+   - See `AI_SETUP.md` for detailed instructions
+
+4. **Start Development**
+   ```bash
+   npm run dev
+   ```
+
+### 🎯 Hackathon Ready
+
+This project is perfect for hackathons with:
+- ✅ Working authentication
+- ✅ Real AI transcription (with API key)
+- ✅ Demo mode (without API key)
+- ✅ Responsive UI
+- ✅ Database integration
+- ✅ Search functionality
 
 ## Project info
 
